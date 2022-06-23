@@ -30,6 +30,16 @@ html,body{
     color: #ffff;
     margin: 0 auto;
 }
+.version_site{
+    position: fixed;
+    top: 50%;
+    z-index: 99999;
+    background: #f96a4c;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
 
 /* Start Navbar */
 
@@ -43,7 +53,7 @@ header {
     display: flex;
     background-color: #f1ede9;
     justify-content: space-around;
-    padding: 1rem 0;
+    padding-top: 1rem;
     align-items: center;
 }
 

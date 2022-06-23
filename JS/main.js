@@ -34,8 +34,10 @@ $(document).ready(function(){
       
        if(scr<700){
            $(".navigation").css("display","none");
+           $(".version_site").css("display","block")
        }else{
            $(".navigation").css("display","flex");
+           $(".version_site").css("display","none")
        }
 
    });
